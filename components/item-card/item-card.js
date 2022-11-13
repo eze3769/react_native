@@ -1,22 +1,15 @@
 import React from 'react'
-import { Modal, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 const ItemCard = ({ item }) => {
   return (
-    <View style={style.item}>
-        <Text>
-        {item}
-        </Text>
-        <Modal 
-                visible={true}
+    <View style={style.item} >
 
-        >
-        <View>
+        <View >
             <Text>
                 {item}
             </Text>
         </View>
-        </Modal>
     </View>
   )
 }
